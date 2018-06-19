@@ -5,10 +5,7 @@
         console.log('Connected to server')
 
     
-        socket.emit('createMessage',{
-            from:'Alooha@dot.com',
-            text:'Alohaa jea aloohaa'
-        });
+            
         });
 
         socket.on('disconnect',function(){
